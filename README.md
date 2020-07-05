@@ -124,10 +124,13 @@ pip install instapy -U
 
 **[How to RaspberryPi](https://github.com/InstaPy/instapy-docs/blob/master/How_Tos/How_to_Raspberry.md) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
 
+**[RealPythons InstaPy Guide](https://realpython.com/instagram-bot-python-instapy/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
+
+**[InstaPy : développez vous-même votre bot Instagram !](https://www.yubigeek.com/instapy-bot-instagram/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**
 
 ## External Tools:
 
-**[InstaPy Dashboard](https://github.com/converge/instapy-dashboard)**<a name="dashboard" />
+**[InstaPy Dashboard (Deprecated) ](https://github.com/converge/instapy-dashboard)**<a name="dashboard" />
 > InstaPy Dashboard is an Open Source project developed by [@converge](https://github.com/converge/) to visualize Instagram accounts progress and real-time InstaPy logs on the browser.
 
 **[InstaPy GUI](https://github.com/breuerfelix/instapy-gui)**<a name="gui" />

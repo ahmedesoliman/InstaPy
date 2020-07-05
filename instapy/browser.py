@@ -33,7 +33,7 @@ def get_geckodriver():
     asset_path = use_assets()
     gdd = GeckoDriverDownloader(asset_path, asset_path)
     # skips download if already downloaded
-    bin_path, sym_path = gdd.download_and_install()
+    sym_path = gdd.download_and_install()[1]
     return sym_path
 
 
@@ -60,6 +60,7 @@ def set_selenium_local_session(
     disable_image_load,
     page_delay,
     geckodriver_path,
+    browser_executable_path,
     logger,
 ):
     """Starts local session for a selenium server.
@@ -86,6 +87,9 @@ def set_selenium_local_session(
         firefox_profile = webdriver.FirefoxProfile(browser_profile_path)
     else:
         firefox_profile = webdriver.FirefoxProfile()
+
+    if browser_executable_path is not None:
+        firefox_options.binary = browser_executable_path
 
     # set English language
     firefox_profile.set_preference("intl.accept_languages", "en-US")
